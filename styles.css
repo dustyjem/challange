@@ -1,0 +1,41 @@
+body {
+    background-color:#FBEBDC;
+    text-align: center;
+    margin: 0px;
+    
+}
+
+h1 {
+    font-size:3em;
+    text-align: center;
+    color:black;
+}
+#items {
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-gap: 15px;
+    text-align:center;
+    width: auto;
+    margin: auto;
+ 
+}
+
+div.item{
+    width: auto;
+    border-color: aqua;
+    border-radius: 5px 5px;
+    box-shadow: 5px 7px 10px;
+    transition: transform 1.2s; /* Animation */
+
+}
+
+img{
+    width: 325px;
+}
+
+
+  
+  div.item:hover {
+    transform: scale(1.5); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+    background-color:#C5B4A2;
+  }
